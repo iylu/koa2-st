@@ -1,0 +1,17 @@
+{
+  "apps": [
+    {
+      "name": "koaapp",
+      "script": "app.js",
+      "watch": false,
+      "log_date_format": "YYYY-MM-DD HH:mm Z",
+      "env": {
+        "NODE_ENV": "production",
+        "PORT": 3000
+      },
+      "instances": 2,
+      "exec_mode": "cluster_mode",
+      "autorestart": true
+    }
+  ]
+}

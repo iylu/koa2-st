@@ -1,0 +1,29 @@
+{
+  "name": "koa-boilerplate",
+  "version": "0.0.1",
+  "description": "A boilerplate based on koa2",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "pm2": "pm2 start devops/pm2.json"
+  },
+  "keywords": [
+    "koa"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.3",
+    "koa": "^2.6.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-compose": "^4.1.0",
+    "koa-logger": "^3.2.0",
+    "koa-onerror": "^4.1.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "mongoose": "^5.4.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}

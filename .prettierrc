@@ -1,0 +1,12 @@
+{
+  "printWidth": 233,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "arrowParens": "always",
+  "overrides": [
+    {
+      "files": ".prettierrc",
+      "options": { "parser": "json" }
+    }
+  ]
+}
